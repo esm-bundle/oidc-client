@@ -1,6 +1,6 @@
 # oidc-client
 
-[![npm version](https://img.shields.io/npm/v/@esm-bundle/oidc-client.svg?style=flat)](https://www.npmjs.com/package/@esm-bundle/oidc-client) [![build status](https://travis-ci.com/esm-bundle/oidc-client.svg?branch=master)](https://travis-ci.com/esm-bundle/oidc-client) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/react/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/react)
+[![npm version](https://img.shields.io/npm/v/@esm-bundle/oidc-client.svg?style=flat)](https://www.npmjs.com/package/@esm-bundle/oidc-client) [![build status](https://travis-ci.com/esm-bundle/oidc-client.svg?branch=master)](https://travis-ci.com/esm-bundle/oidc-client) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/oidc-client/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/oidc-client)
 
 ["What is this" blog post](https://medium.com/@joeldenning/an-esm-bundle-for-any-npm-package-5f850db0e04d)
 
