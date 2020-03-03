@@ -1,6 +1,6 @@
 {
   "name": "@esm-bundle/oidc-client",
-  "version": "20.0.0",
+  "version": "1.10.1",
   "description": "oidc-client bundled as javascript",
   "main": "index.js",
   "module": "esm/index.js",
