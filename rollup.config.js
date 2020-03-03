@@ -10,6 +10,7 @@ function createConfig(format) {
     input: require.resolve("oidc-client/index.js"),
     output: {
       file: `${dir}/index.js`,
+      sourcemap: true,
       format
     },
     plugins: [
