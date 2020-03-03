@@ -2,6 +2,7 @@ import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import globals from "rollup-plugin-node-globals";
 import builtins from "rollup-plugin-node-builtins";
+import { terser } from "rollup-plugin-terser";
 
 function createConfig(format) {
   const dir = format === "module" ? "esm" : format;
@@ -15,7 +16,8 @@ function createConfig(format) {
       resolve(),
       builtins(),
       globals(),
-      commonjs({ preferBuiltins: false })
+      commonjs({ preferBuiltins: false }),
+      terser()
     ]
   };
 }
