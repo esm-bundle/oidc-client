@@ -54,7 +54,7 @@
     "rollup-cli": "1.0.9",
     "rollup-plugin-node-builtins": "2.1.2",
     "rollup-plugin-node-globals": "1.4.0",
-    "rollup-plugin-terser": "^5.2.0"
+    "rollup-plugin-terser": "5.2.0"
   },
   "dependencies": {}
 }
