@@ -11,15 +11,15 @@ function createConfig(format) {
     output: {
       file: `${dir}/index.js`,
       sourcemap: true,
-      format
+      format,
     },
     plugins: [
       resolve(),
       builtins(),
       globals(),
       commonjs({ preferBuiltins: false }),
-      terser()
-    ]
+      terser(),
+    ],
   };
 }
 
